@@ -25,10 +25,10 @@ const SearchScreen = () => {
             />
             { errorMessage? <Text>{errorMessage}</Text> : null}
             <ScrollView>
-            <ResultList title="Cost Effective" results={filterResultByPrice('$')}/>
-            <ResultList title="Bit Pricier"   results={filterResultByPrice('$$')}/>
-            <ResultList title="Big Spender"  results={filterResultByPrice('$$$')}/>
-            <ResultList title="Extra Spender"  results={filterResultByPrice('$$$$')}/>
+            <ResultList  title="Cost Effective" results={filterResultByPrice('$')}/>
+            <ResultList  title="Bit Pricier"   results={filterResultByPrice('$$')}/>
+            <ResultList  title="Big Spender"  results={filterResultByPrice('$$$')}/>
+            <ResultList  title="Extra Spender"  results={filterResultByPrice('$$$$')}/>
             </ScrollView>
             
         </View>
